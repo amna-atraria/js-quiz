@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <style>
+        .cline {
+           
+             color: coral;
+            margin-left: 80px;
+            width: 500px;
+
+        }
+
+        .iline {
+
+            color: blue;
+            margin-left: 80px;
+            font-size: 25px;
+        }
+
+        .border {
+            border: 7px solid;
+            border-color: black;
+            width: 600px;
+            margin-left: 400px;
+            height: 2100px;
+        }
+
+        #button {
+            width: 400px;
+            margin-top: 100px;
+            margin-left: 100px;
+            height: 50px;
+            font-size: 30px;
+            border: 2px solid;
+            border-color: purple;
+            border-radius: 10px;
+            background: linear-gradient(to left, coral, blue,coral);
+            color: white;
+        }
+    </style>
+    <div class="border">
+        <div class="cline">
+            <h2>Q1) What is the capital city of Pakistan?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question1">Karachi <br>
+            <input type="radio" name="question1"> Hyderabad <br>
+            <input type="radio" name="question1" id="correct 1">Islamabad <br>
+            <input type="radio" name="question1"> Quetta <br>
+        </div>
+
+        <div class="cline">
+            <h2>Q2)Which major rivers flow through Pakistan?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question2"> Ganges <br>
+            <input type="radio" name="question2"> Indus <br>
+            <input type="radio" name="question2">Brahmaputra <br>
+            <input type="radio" name="question2" id="correct 2"> Chenab <br>
+        </div>
+
+
+        <div class="cline">
+            <h2>Q3) In which year did Pakistan gain independence from British rule?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question3">1942 <br>
+            <input type="radio" name="question3" id="correct 3"> 1947 <br>
+            <input type="radio" name="question3"> 1950 <br>
+            <input type="radio" name="question3">1952 <br>
+        </div>
+
+
+        <div class="cline">
+            <h2>Q4)What is the national language of Pakistan?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question4"> English<br>
+            <input type="radio" name="question4">Sindhi <br>
+            <input type="radio" name="question4">Punjabi<br>
+            <input type="radio" name="question4" id="correct 4"> Urdu <br>
+        </div>
+
+        <div class="cline">
+            <h2>Q5)Who was the founder of Pakistan?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question5"> Allama Iqbal<br>
+            <input type="radio" name="question5>Liaquat Ali Khan<br>
+            <input type=" radio" name="question5" id="correct 5"> Muhammad Ali Jinnah<br>
+            <input type="radio" name="question5">Benazir Bhutto<br>
+        </div>
+
+        <div class="cline">
+            <h2>Q6)What is the name of the highest peak in Pakistan?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question6">Nanga Parbat<br>
+            <input type="radio" name="question6" id="correct 6">K2<br>
+            <input type="radio" name="question6">Broad Peak<br>
+            <input type="radio" name="question6"> Gasherbrum <br>
+        </div>
+
+        <div class="cline">
+            <h2>Q7)Which Pakistani city is known as the "City of Lights"?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question7">Lahore<br>
+            <input type="radio" name="question7">Islamabad<br>
+            <input type="radio" name="question7" id="correct 7">Karachi <br>
+            <input type="radio" name="question7"> Quetta<br>
+        </div>
+
+
+        <div class="cline">
+            <h2>Q8) What is the national animal of Pakistan?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question8">Bengal Tiger<br>
+            <input type="radio" name="question8" id="correct 8">Markhor <br>
+            <input type="radio" name="question8"> Snow Leopard<br>
+            <input type="radio" name="question8">Asiatic Lion<br>
+        </div>
+
+        <div class="cline">
+            <h2>Q9)Which historic monument is located in Lahore and is a UNESCO World Heritage Site?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question9">Faisal Mosque<br>
+            <input type="radio" name="question9" id="correct 9">Badshahi Mosque<br>
+            <input type="radio" name="question9"> Shalimar Gardens<br>
+            <input type="radio" name="question9"> Mohenjo-Daro<br>
+        </div>
+
+
+        <div class="cline">
+            <h2>Q10)Which Pakistani cricketer is known for being one of the greatest fast bowlers of all time?</h2>
+        </div>
+        <div class="iline">
+            <input type="radio" name="question10">Imran Khan<br>
+            <input type="radio" name="question10" id="correct 10">Wasim Akram<br>
+            <input type="radio" name="question10">Shahid Afridi<br>
+            <input type="radio" name="question10"> Javed Miandad<br>
+        </div>
+
+
+
+        <input type="submit" name="submit" value="Submit Quiz" id="button" onclick="result()">
+
+    </div>
+</body>
+
+</html>
